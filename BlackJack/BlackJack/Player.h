@@ -1,32 +1,17 @@
-#include "Random.h"
-#include "CardHelper.h"
-class Player{
+
+#include "Actor.h"
+class Player : public Actor{
 public:
 	
 	void deal(){
-		gameSetup(this);
+		gameSetup();
 		
 	}
 	void Hit(int index){
 		cards[index] = cRandom();
 	}
-	void finalDisplay(){
-		for(int i =0;i<6;i++){
-			if(this->cards[i] != 0){
-				std::cout<<"["<<cards[i]<<"] ";
-			}
-		}
-	}
-	
-	int calcPScore(){
-		 calcScore(this);
-		
-	}
-	int getScore(){
-		return this->score;
-	}
+
 
 private:
-	int cards[5];
-	int score;
+
 };

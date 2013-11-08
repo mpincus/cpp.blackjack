@@ -1,2 +1,3 @@
 
 int cRandom();
+void randSetup();
