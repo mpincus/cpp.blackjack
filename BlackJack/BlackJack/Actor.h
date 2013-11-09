@@ -7,8 +7,10 @@ public:
 		for(int i = 0; i<5;i++){
 			this->cards[i] = 0;
 		}
-		this->cards[0] = cRandom();				//fill card one
+		this->cards[0] = cRandom();		
+std::cout<<"\nFirst assignment"<<cards[0];		//fill card one
 		this->cards[1] = cRandom();				//fill card 2
+		std::cout<<"\nSecond assignment"<<cards[1];
 		if(this->cards[0] == 1) cards[0] = 11;	//if rand gets 1 change to ace
 		if(this->cards[1] == 1) cards[1] = 11;	//if rand gets 1 change to ace
 		this->score = cards[0] + cards[1];		//calculate current score
@@ -18,20 +20,20 @@ public:
 			//this->score = cards[0] + cards[1];	//calculate current score
 		}		
 		//recalculate score for picture cards
-		if((cards[0] = 11) || (cards[1] = 11)){
+		if((cards[0] == 11) || (cards[1] == 11)){
 			score -= 1;
 		}
-		if((cards[0] = 12) || (cards[1] = 12)){
+		if((cards[0] == 12) || (cards[1] == 12)){
 			score -= 2;
 		}
-		if((cards[0] = 13) || (cards[1] = 13)){
+		if((cards[0] == 13) || (cards[1] == 13)){
 			score -=3;
 		}	
 	}
 
 	void finalDisplay(){
 		for(int i =0;i<5;i++){
-			if(this->cards[i] != 0){
+			if(this->cards[i] > 0){
 				std::cout<<"["<<this->cards[i]<<"] ";
 			}
 		}
@@ -48,7 +50,11 @@ public:
 			score += cards[i];
 		}
 	}
+		void cardDisplay(){
+			std::cout<<std::endl<<cards[0]<<" "<<cards[1]<<" "<<cards[2]<<" "<<cards[3];
+
+		}
 protected:
 	int cards[5];
 	int score;
-};
+	};

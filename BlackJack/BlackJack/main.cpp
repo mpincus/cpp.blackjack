@@ -15,6 +15,8 @@ int main(){
 	player.deal();
 	player.finalDisplay();
 	}
+	dealer.cardDisplay();
+	player.cardDisplay();
 	system("pause");
 	return 0;
 }
