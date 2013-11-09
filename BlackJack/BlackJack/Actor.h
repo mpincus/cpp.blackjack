@@ -32,7 +32,7 @@ public:
 	void finalDisplay(){
 		for(int i =0;i<5;i++){
 			if(this->cards[i] != 0){
-				std::cout<<"["<<cards[i]<<"] ";
+				std::cout<<"["<<this->cards[i]<<"] ";
 			}
 		}
 		std::cout<<std::endl;

@@ -7,7 +7,7 @@
 int cRandom(){
 
 		
-		int random_int = (rand()%13)+1; 
+		int random_int = (rand()%13+1); 
 		return random_int;
 
 }
