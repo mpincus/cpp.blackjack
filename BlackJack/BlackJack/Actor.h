@@ -8,9 +8,9 @@ public:
 			this->cards[i] = 0;
 		}
 		this->cards[0] = cRandom();		
-std::cout<<"\nFirst assignment"<<cards[0];		//fill card one
+//std::cout<<"\nFirst assignment"<<cards[0];		//fill card one
 		this->cards[1] = cRandom();				//fill card 2
-		std::cout<<"\nSecond assignment"<<cards[1];
+	//	std::cout<<"\nSecond assignment"<<cards[1];
 		if(this->cards[0] == 1) cards[0] = 11;	//if rand gets 1 change to ace
 		if(this->cards[1] == 1) cards[1] = 11;	//if rand gets 1 change to ace
 		this->score = cards[0] + cards[1];		//calculate current score

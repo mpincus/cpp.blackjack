@@ -2,13 +2,22 @@
 #include "Actor.h"
 class Player : public Actor{
 public:
+	Player(){};
 	
 	void deal(){
 		gameSetup();
 		
 	}
-	void Hit(int index){
-		cards[index] = cRandom();
+	void Hit(){
+		
+		for (int i = 0; i < 5; i++){
+			if (this->cards[i] == 0){
+				this->cards[i]=cRandom();
+				std::cout << cards[i];
+				break;
+			}
+		}
+	
 	}
 
 
