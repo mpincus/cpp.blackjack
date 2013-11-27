@@ -171,15 +171,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\CardHelper.cpp"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\CardHelper.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\cpp.blackjack-master\BlackJack\BlackJack\main.cpp"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\main.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\Random.cpp"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\Random.cpp"
 				>
 			</File>
 		</Filter>
@@ -189,23 +189,23 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\Actor.h"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\Actor.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\CardHelper.h"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\CardHelper.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\Dealer.h"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\Dealer.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\Player.h"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\Player.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\Random.h"
+				RelativePath="..\..\..\cpp.blackjack-master\BlackJack\BlackJack\Random.h"
 				>
 			</File>
 		</Filter>
