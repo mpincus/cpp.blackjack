@@ -175,7 +175,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\BlackJack\BlackJack\main.cpp"
+				RelativePath="..\..\cpp.blackjack-master\BlackJack\BlackJack\main.cpp"
 				>
 			</File>
 			<File
